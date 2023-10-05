@@ -26,12 +26,10 @@ main {
   text-align: center;
   font-size: 4rem;
   margin-top: 70px;
-  scroll-snap-type: y mandatory;
 }
 
 section {
   min-height: 100vh;
   padding: 20px;
   font-size: 3.5rem;
-  scroll-snap-align: start;
 }
