@@ -26,6 +26,8 @@ main {
   text-align: center;
   font-size: 4rem;
   margin-top: 70px;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
 }
 
 section {
@@ -36,4 +38,5 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  scroll-snap-align: start;
 }
